@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    
+}
+.container{
+    width: 100%;
+    /* background-image: url(image/bg4.jpg); */
+    background:linear-gradient(to right bottom,#001d3e 50%,#88104d);
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;                        
+    overflow: hidden;
+    height: auto;
+    
+}
+
+
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background: #151517;
+    color: #fff;
+    padding: 100px  0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .footrow{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .footcol{
+    flex-basis: 25%;
+    padding: 10px;
+  }
+  
+  .footcol:nth-child(3),.footcol:nth-child(2){
+    flex-basis: 15%;
+  }
+  
+  
+  .footcol h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+    font-size: large;
+  }
+  .footcol p{
+    margin: 6px;
+  }
+  .footlogo{
+    
+    height: 120px;
+    width: 120px;
+    margin-bottom: 30px;
+  }
+  
+  
+  .footemail-id{
+    width: fit-content;
+    border-bottom: solid 1px #ccc;
+    margin: 20px 0;
+  }
+  
+  .footcol ul li{
+    list-style: none;
+    margin: 12px;
+  }
+  
+  .footcol ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: medium;
+  }
+  .footcol ul li a:hover{
+    color: #03a9f4;
+    font-size:large;
+    
+  }
+  .social-icons  .fab {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+  
+  }
+  
+  .social-icons .fab:nth-child(1){
+  color: #ff0000;
+  }
+  .social-icons .fab:nth-child(2){
+    color: #ff0000;
+    }
+    .social-icons .fab:nth-child(3){
+      color: orangered;
+      }
+      .social-icons .fab:nth-child(4){
+        color: blue;
+        }
+  
+  
+  
+        .social-icons .fab:hover:nth-child(1){
+          background-color: lightcyan;
+          }
+          .social-icons .fab:hover:nth-child(2){
+            background-color: lightcyan;
+            }
+            .social-icons .fab:hover:nth-child(3){
+              background-color: lightcyan;
+              }
+              .social-icons .fab:hover:nth-child(4){
+                background-color: lightcyan;
+                }
+  
+  footer hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+  }
+  .footcopyright{
+    text-align: center;
+  
+  }
+  
+  .underline{
+    width: 100%;
+    height: 5px;
+    background:#767676 ;
+    border-radius: 3px;
+    position: absolute;
+    top:25px;
+    left: 0;
+    overflow: hidden;
+  }
+  
+  .underline span{
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: footmoving 2s linear infinite;
+  }
+  
+  
+  @keyframes footmoving{
+    0%{
+        left: -20px;
+    }
+  
+    100%{
+        left: 100%;
+    }
+  
+  }
+  
+  
+  @media(max-width:700px){
+  footer{
+    bottom: unset;
+  }
+  
+  
+  .footcol{
+    flex-basis: 100%;
+  
+  }
+  
+  .footcol:nth-child(3),.footcol:nth-child(2){
+    flex-basis: 100%;
+  }
+  
+  }
+  
+  /* footer css ends here */
+  
