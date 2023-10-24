@@ -1,0 +1,34 @@
+.btn{
+    margin-top: 40px;
+    display: flex;
+   
+  }
+  .pushable {
+    background: #013220;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    margin: 2px;
+    transition: box-shadow 0.3s; /* Add a transition for smooth hover effect */
+  }
+  
+  .pushable:hover {
+    background: #26ff00;
+    box-shadow: 0 4px 8px rgba(226, 255, 9, 0.681); 
+  }
+  
+  .front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1rem;
+    background:#2A7E19;
+    color: white;
+    transform: translateY(-6px);
+  }
+
+  .pushable:active .front {
+    transform: translateY(-2px);
+  }
